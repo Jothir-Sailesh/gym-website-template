@@ -4,8 +4,8 @@ export const transformationsData: Transformation[] = [
   {
     id: "trans-01",
     memberName: "DEMO MEMBER 01",
-    beforeImage: "Images/before1.png",
-    afterImage: "Images/after1.png",
+    beforeImage: "/Images/before1.png",
+    afterImage: "/Images/after1.png",
     period: "16 WEEKS",
     goal: "STRENGTH & RECOMP",
     result: "-12kg Fat / +6kg Lean Muscle",
