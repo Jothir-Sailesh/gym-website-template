@@ -27,8 +27,8 @@ export default {
         }
       },
       fontFamily: {
-        display: ['Syne', 'Oswald', 'sans-serif'],
-        sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+        display: ['Oswald', 'sans-serif'],
+        sans: ['Inter', 'sans-serif'],
       },
       letterSpacing: {
         tightest: '-0.06em',

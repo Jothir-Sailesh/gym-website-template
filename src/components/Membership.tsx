@@ -105,7 +105,7 @@ export const Membership: React.FC = () => {
                 href={getMembershipWhatsAppLink(plan.duration)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`w-full py-4 font-display font-extrabold text-xs tracking-wider uppercase transition-all duration-300 flex items-center justify-center gap-2 ${
+                className={`w-full py-4 font-sans font-bold text-xs tracking-wider uppercase transition-all duration-300 flex items-center justify-center gap-2 ${
                   plan.popular
                     ? 'bg-accent text-light hover:bg-accent-hover shadow-[0_0_15px_rgba(225,6,0,0.3)]'
                     : 'bg-dark-surface border border-dark-border text-light hover:border-accent hover:text-accent'

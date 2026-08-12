@@ -152,7 +152,7 @@ export const Programs: React.FC = () => {
                   href={getProgramWhatsAppLink(activeProgram.name)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-accent text-light py-4 px-6 font-display font-extrabold text-xs sm:text-sm tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center justify-center gap-2 group shadow-[0_0_20px_rgba(225,6,0,0.3)]"
+                  className="w-full bg-accent text-light py-4 px-6 font-sans font-bold text-xs sm:text-sm tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center justify-center gap-2 group shadow-[0_0_20px_rgba(225,6,0,0.3)]"
                   data-cursor="ENQUIRE"
                 >
                   <span>EXPLORE {activeProgram.name} VIA WHATSAPP</span>

@@ -166,7 +166,7 @@ export const ContactForm: React.FC = () => {
                 <div className="flex flex-col sm:flex-row items-center gap-4 pt-4">
                   <button
                     type="submit"
-                    className="w-full sm:flex-1 bg-accent text-light py-4 px-8 font-display font-extrabold text-sm tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(225,6,0,0.3)]"
+                    className="w-full sm:flex-1 bg-accent text-light py-4 px-8 font-sans font-bold text-sm tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(225,6,0,0.3)]"
                     data-cursor="SUBMIT"
                   >
                     <span>SEND ENQUIRY</span>
@@ -177,7 +177,7 @@ export const ContactForm: React.FC = () => {
                     href={getWhatsAppLink('Hi JS FITNESS, I would like to book a studio walkthrough.')}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full sm:w-auto border border-dark-border bg-dark-bg text-light py-4 px-6 font-display font-bold text-xs tracking-wider uppercase hover:border-accent hover:text-accent transition-colors flex items-center justify-center gap-2"
+                    className="w-full sm:w-auto border border-dark-border bg-dark-bg text-light py-4 px-6 font-sans font-bold text-xs tracking-wider uppercase hover:border-accent hover:text-accent transition-colors flex items-center justify-center gap-2"
                   >
                     <MessageSquare className="w-4 h-4 text-accent" />
                     <span>INSTANT WHATSAPP</span>
@@ -215,7 +215,7 @@ export const ContactForm: React.FC = () => {
                     href={getFormSubmissionWhatsAppLink(formData)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full sm:w-auto bg-accent text-light px-8 py-4 font-display font-extrabold text-xs tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center justify-center gap-2 shadow-[0_0_15px_rgba(225,6,0,0.3)]"
+                    className="w-full sm:w-auto bg-accent text-light px-8 py-4 font-sans font-bold text-xs tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center justify-center gap-2 shadow-[0_0_15px_rgba(225,6,0,0.3)]"
                   >
                     <MessageSquare className="w-4 h-4" />
                     <span>CONTINUE ON WHATSAPP →</span>

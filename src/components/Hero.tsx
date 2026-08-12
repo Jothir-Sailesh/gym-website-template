@@ -105,7 +105,7 @@ export const Hero: React.FC = () => {
               href={getTrialWhatsAppLink()}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-accent text-light px-8 py-4 sm:py-5 font-display font-extrabold text-sm sm:text-base tracking-wider uppercase hover:bg-accent-hover transition-all flex items-center justify-center gap-3 group shadow-[0_0_25px_rgba(225,6,0,0.35)]"
+              className="bg-accent text-light px-8 py-4 sm:py-5 font-sans font-bold text-sm sm:text-base tracking-wider uppercase hover:bg-accent-hover transition-all flex items-center justify-center gap-3 group shadow-[0_0_25px_rgba(225,6,0,0.35)]"
               data-cursor="FREE TRIAL"
             >
               <span>START YOUR FREE TRIAL</span>
@@ -114,7 +114,7 @@ export const Hero: React.FC = () => {
 
             <a
               href="#programs"
-              className="border border-dark-border bg-dark-bg/40 backdrop-blur-md text-light px-8 py-4 sm:py-5 font-display font-bold text-sm sm:text-base tracking-wider uppercase hover:border-accent hover:text-accent transition-all flex items-center justify-center gap-2 group"
+              className="border border-dark-border bg-dark-bg/40 backdrop-blur-md text-light px-8 py-4 sm:py-5 font-sans font-bold text-sm sm:text-base tracking-wider uppercase hover:border-accent hover:text-accent transition-all flex items-center justify-center gap-2 group"
             >
               <span>EXPLORE PROGRAMS</span>
               <ArrowDown className="w-4 h-4 text-accent group-hover:translate-y-1 transition-transform" />

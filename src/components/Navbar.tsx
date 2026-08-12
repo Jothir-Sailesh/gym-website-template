@@ -85,7 +85,7 @@ export const Navbar: React.FC = () => {
               href={getTrialWhatsAppLink()}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-accent text-light px-5 py-2.5 font-display font-extrabold text-xs tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center gap-1.5 shadow-[0_0_15px_rgba(225,6,0,0.3)]"
+              className="bg-accent text-light px-5 py-2.5 font-sans font-bold text-xs tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center gap-1.5 shadow-[0_0_15px_rgba(225,6,0,0.3)]"
               data-cursor="JOIN NOW"
             >
               <span>START TRAINING</span>
@@ -152,7 +152,7 @@ export const Navbar: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="w-full bg-accent text-dark-bg py-4 text-center font-display font-extrabold text-sm tracking-wider uppercase flex items-center justify-center gap-2"
+                className="w-full bg-accent text-light py-4 text-center font-sans font-bold text-xs tracking-wider uppercase flex items-center justify-center gap-2 shadow-[0_0_15px_rgba(225,6,0,0.3)]"
               >
                 <MessageSquare className="w-4 h-4" />
                 <span>BOOK A FREE TRIAL VIA WHATSAPP</span>
