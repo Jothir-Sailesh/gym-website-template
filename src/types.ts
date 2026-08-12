@@ -64,9 +64,10 @@ export interface StatItem {
 
 export interface MembershipPlan {
   id: string;
-  name: string;
-  price: string;
-  period: string;
+  duration: string;
+  regularPrice: string;
+  offerPrice: string;
+  savings: string;
   badge?: string;
   popular?: boolean;
   features: string[];

@@ -85,7 +85,7 @@ export const Navbar: React.FC = () => {
               href={getTrialWhatsAppLink()}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-accent text-dark-bg px-5 py-2.5 font-display font-extrabold text-xs tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center gap-1.5 shadow-[0_0_15px_rgba(199,240,0,0.2)]"
+              className="bg-accent text-light px-5 py-2.5 font-display font-extrabold text-xs tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center gap-1.5 shadow-[0_0_15px_rgba(225,6,0,0.3)]"
               data-cursor="JOIN NOW"
             >
               <span>START TRAINING</span>

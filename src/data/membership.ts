@@ -1,68 +1,76 @@
 import { MembershipPlan } from '../types';
 
+/**
+ * CENTRALIZED MEMBERSHIP PRICING DATA
+ * Easy to customize for gym owners. All pricing and benefits are configurable here.
+ */
 export const membershipData: MembershipPlan[] = [
   {
-    id: "plan-monthly",
-    name: "MONTHLY PASS",
-    price: "TEMPLATE PRICE",
-    period: "PER MONTH",
-    badge: "FLEXIBLE",
+    id: "plan-1-month",
+    duration: "1 MONTH",
+    regularPrice: "₹2,499",
+    offerPrice: "₹1,999",
+    savings: "SAVE ₹500",
     popular: false,
     features: [
-      "Full Training Floor Access",
-      "Biometric Body Screening",
-      "Locker & Recovery Zone Access",
-      "Standard Class Enrollment",
-      "Mobile App Tracking"
+      "Full Gym Access",
+      "All Equipment",
+      "Group Training",
+      "Locker Access"
     ],
-    ctaText: "GET MEMBERSHIP DETAILS"
+    ctaText: "JOIN NOW"
   },
   {
-    id: "plan-quarterly",
-    name: "QUARTERLY ATHLETE",
-    price: "TEMPLATE PRICE",
-    period: "EVERY 3 MONTHS",
+    id: "plan-3-months",
+    duration: "3 MONTHS",
+    regularPrice: "₹6,999",
+    offerPrice: "₹5,499",
+    savings: "SAVE ₹1,500",
     badge: "MOST POPULAR",
     popular: true,
     features: [
-      "All Monthly Pass Privileges",
-      "1-on-1 Strategy & Assessment",
-      "Customized Nutrition Blueprint",
-      "Guest Pass Privileges (2/mo)",
-      "Priority Squad Reservations"
+      "Full Gym Access",
+      "All Equipment",
+      "Group Training",
+      "Locker Access",
+      "Fitness Assessment"
     ],
-    ctaText: "GET MEMBERSHIP DETAILS"
+    ctaText: "JOIN NOW"
   },
   {
-    id: "plan-annual",
-    name: "ANNUAL MASTERY",
-    price: "TEMPLATE PRICE",
-    period: "PER YEAR",
+    id: "plan-6-months",
+    duration: "6 MONTHS",
+    regularPrice: "₹12,999",
+    offerPrice: "₹9,999",
+    savings: "SAVE ₹3,000",
+    popular: false,
+    features: [
+      "Full Gym Access",
+      "All Equipment",
+      "Group Training",
+      "Locker Access",
+      "Fitness Assessment",
+      "Nutrition Guidance"
+    ],
+    ctaText: "JOIN NOW"
+  },
+  {
+    id: "plan-1-year",
+    duration: "1 YEAR",
+    regularPrice: "₹23,999",
+    offerPrice: "₹17,999",
+    savings: "SAVE ₹6,000",
     badge: "BEST VALUE",
     popular: false,
     features: [
-      "Unlimited 365-Day Access",
-      "4x Personal Coaching Vouchers",
-      "Quarterly VO2 & Muscle Scans",
-      "Exclusive JS FITNESS Merch Pack",
-      "Free VIP Recovery Lounge Passes"
+      "Full Gym Access",
+      "All Equipment",
+      "Group Training",
+      "Locker Access",
+      "Fitness Assessment",
+      "Nutrition Guidance",
+      "Guest Pass Privileges"
     ],
-    ctaText: "GET MEMBERSHIP DETAILS"
-  },
-  {
-    id: "plan-pt",
-    name: "1-ON-1 COACHING",
-    price: "CUSTOM RATE",
-    period: "PER PROGRAM",
-    badge: "VIP EXPERIENCE",
-    popular: false,
-    features: [
-      "100% Dedicated Master Coach",
-      "Custom Macro & Meal Planning",
-      "Biomechanical Video Reviews",
-      "Unlimited Direct Messaging",
-      "Guaranteed Results Protocol"
-    ],
-    ctaText: "BOOK COACHING ENQUIRY"
+    ctaText: "JOIN NOW"
   }
 ];

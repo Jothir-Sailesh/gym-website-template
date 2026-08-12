@@ -33,7 +33,7 @@
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #C7F000;
+    background: #E10600;
   }
 }
 
@@ -44,7 +44,7 @@
   }
 
   .text-stroke-accent {
-    -webkit-text-stroke: 1px #C7F000;
+    -webkit-text-stroke: 1px #E10600;
     color: transparent;
   }
 

@@ -39,7 +39,7 @@ export const Manifesto: React.FC = () => {
         </div>
 
         {/* Scroll-Linked Word Reveal Headline */}
-        <div className="flex flex-wrap gap-x-4 sm:gap-x-7 gap-y-2 sm:gap-y-4 max-w-5xl mb-12 sm:mb-16">
+        <div className="flex flex-wrap gap-x-4 sm:gap-x-6 gap-y-2 sm:gap-y-3 max-w-[850px] mb-12 sm:mb-16">
           {words.map((word, idx) => {
             const start = idx / words.length;
             const end = start + 1 / words.length;
@@ -50,7 +50,7 @@ export const Manifesto: React.FC = () => {
               <motion.span
                 key={idx}
                 style={{ opacity }}
-                className={`font-display font-extrabold text-4xl sm:text-7xl lg:text-8xl tracking-tighter uppercase leading-none ${
+                className={`font-display font-extrabold text-4xl sm:text-6xl lg:text-7xl tracking-tight uppercase leading-[0.95] ${
                   word.accent ? 'text-accent' : 'text-light'
                 }`}
               >

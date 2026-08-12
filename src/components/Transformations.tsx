@@ -58,7 +58,7 @@ export const Transformations: React.FC = () => {
                 alt={`${activeTrans.memberName} After`}
                 className="absolute inset-0 w-full h-full object-cover filter brightness-90 contrast-110"
               />
-              <span className="absolute bottom-4 right-4 bg-accent text-dark-bg font-display font-extrabold text-xs px-3 py-1 uppercase tracking-wider z-10">
+              <span className="absolute bottom-4 right-4 bg-accent text-light font-display font-extrabold text-xs px-3 py-1 uppercase tracking-wider z-10">
                 AFTER
               </span>
 
@@ -80,10 +80,10 @@ export const Transformations: React.FC = () => {
 
               {/* Drag Handle Divider Line */}
               <div
-                className="absolute top-0 bottom-0 w-1 bg-accent z-20 shadow-[0_0_15px_#C7F000]"
+                className="absolute top-0 bottom-0 w-1 bg-accent z-20 shadow-[0_0_15px_#E10600]"
                 style={{ left: `${sliderPos}%` }}
               >
-                <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-9 h-9 rounded-full bg-accent text-dark-bg flex items-center justify-center shadow-lg">
+                <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-9 h-9 rounded-full bg-accent text-light flex items-center justify-center shadow-lg">
                   <ArrowLeftRight className="w-4 h-4" />
                 </div>
               </div>
@@ -107,7 +107,7 @@ export const Transformations: React.FC = () => {
                     }}
                     className={`px-4 py-2 font-mono text-xs font-bold transition-all border ${
                       activeIdx === idx
-                        ? 'bg-accent text-dark-bg border-accent'
+                        ? 'bg-accent text-light border-accent font-extrabold'
                         : 'bg-dark-surface text-light-muted border-dark-border hover:border-light-muted'
                     }`}
                   >

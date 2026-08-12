@@ -8,10 +8,10 @@ export default {
     extend: {
       colors: {
         accent: {
-          DEFAULT: '#C7F000', // Electric Acid Lime
-          hover: '#D4F52B',
-          dark: '#9CBF00',
-          alpha: 'rgba(199, 240, 0, 0.15)',
+          DEFAULT: '#E10600', // Premium Athletic Red
+          hover: '#FF1E17',
+          dark: '#B30000',
+          alpha: 'rgba(225, 6, 0, 0.15)',
         },
         dark: {
           bg: '#0A0A0A',

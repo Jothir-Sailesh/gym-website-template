@@ -27,19 +27,19 @@ export const Philosophy: React.FC = () => {
         
         {/* Header Title */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16 sm:mb-24">
-          <div>
+          <div className="max-w-[600px]">
             <div className="flex items-center gap-3 mb-4">
               <span className="w-8 h-[2px] bg-accent" />
               <span className="text-xs font-mono font-bold tracking-widest text-accent uppercase">
                 03 — WHY JS FITNESS
               </span>
             </div>
-            <h2 className="font-display font-extrabold text-4xl sm:text-6xl lg:text-7xl tracking-tighter uppercase text-light">
+            <h2 className="font-display font-extrabold text-4xl sm:text-6xl lg:text-7xl tracking-tight uppercase text-light">
               TRAIN WITH <span className="text-accent">PURPOSE.</span>
             </h2>
           </div>
 
-          <p className="text-sm sm:text-base text-light-muted max-w-md">
+          <p className="text-sm sm:text-base text-light-muted max-w-[450px]">
             Our training methodology rejects trend fitness. We ground every workout in biomechanics, progressive loading, and intense accountability.
           </p>
         </div>

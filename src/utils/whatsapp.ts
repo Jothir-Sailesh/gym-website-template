@@ -17,6 +17,11 @@ export function getTrialWhatsAppLink(): string {
   return getWhatsAppLink(text);
 }
 
+export function getMembershipWhatsAppLink(duration: string): string {
+  const text = `Hi ${businessConfig.brandName}, I'm interested in the ${duration} membership plan. Please share the details.`;
+  return getWhatsAppLink(text);
+}
+
 export function getFormSubmissionWhatsAppLink(formData: { name: string; phone: string; goal: string; message: string }): string {
   const text = `Hi ${businessConfig.brandName}, I submitted an enquiry via your website:
 • Name: ${formData.name}

@@ -7,12 +7,12 @@ export const TrialCTA: React.FC = () => {
   return (
     <section className="py-24 sm:py-32 bg-dark-card text-light relative overflow-hidden border-b border-dark-border">
       {/* Dynamic Animated Pulse Background */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(199,240,0,0.08)_0%,transparent_70%)] animate-pulse-subtle pointer-events-none" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(225,6,0,0.12)_0%,transparent_70%)] animate-pulse-subtle pointer-events-none" />
 
       {/* Grid Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#151515_1px,transparent_1px),linear-gradient(to_bottom,#151515_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-40 pointer-events-none" />
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      <div className="max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
@@ -32,7 +32,7 @@ export const TrialCTA: React.FC = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="font-display font-extrabold text-5xl sm:text-7xl lg:text-9xl tracking-tighter uppercase text-light leading-[0.9] mb-6"
+          className="font-display font-extrabold text-5xl sm:text-7xl lg:text-8xl tracking-tight uppercase text-light leading-[0.92] mb-6"
         >
           READY TO <br />
           <span className="text-accent">START?</span>
@@ -59,7 +59,7 @@ export const TrialCTA: React.FC = () => {
             href={getTrialWhatsAppLink()}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto bg-accent text-dark-bg px-9 py-5 font-display font-extrabold text-base tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center justify-center gap-3 group shadow-[0_0_30px_rgba(199,240,0,0.3)]"
+            className="w-full sm:w-auto bg-accent text-light px-9 py-5 font-display font-extrabold text-base tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center justify-center gap-3 group shadow-[0_0_30px_rgba(225,6,0,0.35)]"
             data-cursor="BOOK TRIAL"
           >
             <span>BOOK A FREE TRIAL</span>

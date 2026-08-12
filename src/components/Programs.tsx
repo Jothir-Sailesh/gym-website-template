@@ -18,19 +18,19 @@ export const Programs: React.FC = () => {
         
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 sm:mb-20">
-          <div>
+          <div className="max-w-[650px]">
             <div className="flex items-center gap-3 mb-4">
               <span className="w-8 h-[2px] bg-accent" />
               <span className="text-xs font-mono font-bold tracking-widest text-accent uppercase">
                 04 — TRAINING ARCHITECTURE
               </span>
             </div>
-            <h2 className="font-display font-extrabold text-4xl sm:text-6xl lg:text-7xl tracking-tighter uppercase text-light">
+            <h2 className="font-display font-extrabold text-4xl sm:text-6xl lg:text-7xl tracking-tight uppercase text-light">
               CORE <span className="text-stroke-accent">PROGRAMS.</span>
             </h2>
           </div>
 
-          <p className="text-sm sm:text-base text-light-muted max-w-md">
+          <p className="text-sm sm:text-base text-light-muted max-w-[450px]">
             Six targeted protocols engineered for muscle building, fat loss, athletic stamina, and 1-on-1 physical coaching.
           </p>
         </div>
@@ -49,7 +49,7 @@ export const Programs: React.FC = () => {
                   onMouseEnter={() => setActiveId(prog.id)}
                   className={`w-full text-left p-5 sm:p-6 transition-all duration-300 relative border flex items-center justify-between group ${
                     isActive
-                      ? 'bg-dark-card border-accent shadow-[0_0_20px_rgba(199,240,0,0.1)]'
+                      ? 'bg-dark-card border-accent shadow-[0_0_20px_rgba(225,6,0,0.15)]'
                       : 'bg-dark-surface/60 border-dark-border hover:border-dark-border/80 hover:bg-dark-surface'
                   }`}
                   data-cursor="SELECT"
@@ -152,7 +152,7 @@ export const Programs: React.FC = () => {
                   href={getProgramWhatsAppLink(activeProgram.name)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-accent text-dark-bg py-4 px-6 font-display font-extrabold text-xs sm:text-sm tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center justify-center gap-2 group shadow-[0_0_20px_rgba(199,240,0,0.2)]"
+                  className="w-full bg-accent text-light py-4 px-6 font-display font-extrabold text-xs sm:text-sm tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center justify-center gap-2 group shadow-[0_0_20px_rgba(225,6,0,0.3)]"
                   data-cursor="ENQUIRE"
                 >
                   <span>EXPLORE {activeProgram.name} VIA WHATSAPP</span>

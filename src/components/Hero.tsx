@@ -71,14 +71,14 @@ export const Hero: React.FC = () => {
         </div>
 
         {/* Main Display Headline & Supporting Copy */}
-        <div className="my-auto max-w-4xl pt-8">
+        <div className="my-auto max-w-[800px] pt-8">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
             className="overflow-hidden"
           >
-            <h1 className="font-display font-extrabold text-5xl sm:text-7xl lg:text-9xl tracking-tighter uppercase leading-[0.88] text-light mb-6">
+            <h1 className="font-display font-extrabold text-5xl sm:text-7xl lg:text-8xl tracking-tight uppercase leading-[0.92] text-light mb-6">
               DISCIPLINE <br />
               <span className="text-stroke-accent">CREATES</span> <br />
               <span className="text-accent">RESULTS.</span>
@@ -89,7 +89,7 @@ export const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.7 }}
-            className="text-base sm:text-xl text-light-muted font-normal max-w-2xl text-balance leading-relaxed mb-8 sm:mb-10"
+            className="text-base sm:text-xl text-light-muted font-normal max-w-xl text-balance leading-relaxed mb-8 sm:mb-10"
           >
             {businessConfig.heroSubheadline}
           </motion.p>
@@ -105,7 +105,7 @@ export const Hero: React.FC = () => {
               href={getTrialWhatsAppLink()}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-accent text-dark-bg px-8 py-4 sm:py-5 font-display font-extrabold text-sm sm:text-base tracking-wider uppercase hover:bg-accent-hover transition-all flex items-center justify-center gap-3 group shadow-[0_0_25px_rgba(199,240,0,0.3)]"
+              className="bg-accent text-light px-8 py-4 sm:py-5 font-display font-extrabold text-sm sm:text-base tracking-wider uppercase hover:bg-accent-hover transition-all flex items-center justify-center gap-3 group shadow-[0_0_25px_rgba(225,6,0,0.35)]"
               data-cursor="FREE TRIAL"
             >
               <span>START YOUR FREE TRIAL</span>

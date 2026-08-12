@@ -85,7 +85,7 @@ export const LocationMap: React.FC = () => {
                 href={businessConfig.googleMapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 bg-accent text-dark-bg py-3.5 px-4 font-display font-extrabold text-xs tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center justify-center gap-2"
+                className="flex-1 bg-accent text-light py-3.5 px-4 font-display font-extrabold text-xs tracking-wider uppercase hover:bg-accent-hover transition-colors flex items-center justify-center gap-2 shadow-[0_0_15px_rgba(225,6,0,0.3)]"
                 data-cursor="DIRECTIONS"
               >
                 <Navigation className="w-4 h-4" />

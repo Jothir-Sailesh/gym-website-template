@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-5 flex flex-col justify-between">
             <div>
               <a href="#hero" className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-accent text-dark-bg font-display font-extrabold text-2xl flex items-center justify-center tracking-tighter">
+                <div className="w-12 h-12 bg-accent text-light font-display font-extrabold text-2xl flex items-center justify-center tracking-tighter shadow-[0_0_15px_rgba(225,6,0,0.3)]">
                   {businessConfig.shortName}
                 </div>
                 <span className="font-display font-extrabold text-3xl tracking-wider text-light">

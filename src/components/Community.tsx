@@ -92,9 +92,9 @@ export const Community: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-dark-bg via-transparent to-transparent" />
             </div>
 
-            <div className="absolute -bottom-8 -left-8 bg-accent text-dark-bg p-6 sm:p-8 font-display font-extrabold max-w-xs shadow-2xl hidden sm:block">
-              <span className="text-4xl block leading-none mb-1 font-mono">100%</span>
-              <span className="text-xs tracking-wider uppercase block">DEDICATED COMMUNITY</span>
+            <div className="absolute -bottom-8 -left-8 bg-accent text-light p-6 sm:p-8 font-display font-extrabold max-w-xs shadow-2xl hidden sm:block">
+              <span className="text-4xl block leading-none mb-1 font-mono font-extrabold">100%</span>
+              <span className="text-xs tracking-wider uppercase block font-bold">DEDICATED COMMUNITY</span>
             </div>
           </div>
 

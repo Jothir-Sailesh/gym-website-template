@@ -60,7 +60,7 @@ export const CustomCursor: React.FC = () => {
         y: mousePosition.y - (isHovered ? (cursorText ? 40 : 20) : 8),
         width: isHovered ? (cursorText ? 80 : 40) : 16,
         height: isHovered ? (cursorText ? 80 : 40) : 16,
-        backgroundColor: cursorText ? '#C7F000' : (isHovered ? '#FFFFFF' : '#C7F000'),
+        backgroundColor: cursorText ? '#E10600' : (isHovered ? '#FFFFFF' : '#E10600'),
       }}
       transition={{
         type: 'spring',
