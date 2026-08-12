@@ -15,7 +15,7 @@ export const Hero: React.FC = () => {
   return (
     <section id="hero" className="relative h-screen min-h-[700px] w-full overflow-hidden bg-dark-bg flex items-center justify-center">
       {/* Background Cinematic Image with Parallax & Scale */}
-      <motion.div 
+      <motion.div
         className="absolute inset-0 w-full h-full"
         style={{ scale: imageScale }}
       >
@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
           alt="Athlete Training at JS FITNESS"
           className="w-full h-full object-cover object-center filter brightness-75 contrast-125"
         />
-        
+
         {/* Dark Vignette & Gradient Overlays */}
         <div className="absolute inset-0 bg-gradient-to-t from-dark-bg via-dark-bg/60 to-dark-bg/40" />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-bg/90 via-dark-bg/40 to-transparent" />
@@ -35,7 +35,7 @@ export const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:6rem_100%] pointer-events-none" />
 
       {/* Hero Content Container */}
-      <motion.div 
+      <motion.div
         style={{ y: textY, opacity }}
         className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-20 sm:pt-24 pb-12 flex flex-col justify-between h-full max-h-[850px]"
       >
@@ -130,7 +130,7 @@ export const Hero: React.FC = () => {
           className="flex items-center justify-between border-t border-dark-border/60 pt-6 text-xs text-light-muted font-mono"
         >
           <span className="hidden sm:inline-block">01 / 06 — FOUNDATION PROTOCOL</span>
-          
+
           <div className="flex items-center gap-2 text-accent">
             <span className="w-1.5 h-1.5 rounded-full bg-accent animate-ping" />
             <span className="uppercase text-[10px] tracking-widest font-sans font-bold">SCROLL TO DISCOVER</span>

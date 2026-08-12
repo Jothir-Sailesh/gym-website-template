@@ -52,7 +52,7 @@ export const Transformations: React.FC = () => {
               onTouchMove={handleSliderMove}
               data-cursor="DRAG"
             >
-              {/* AFTER IMAGE (Base Layer) */}
+              {/* AFTER IMAGE (Right Side Base Layer) */}
               <img
                 src={activeTrans.afterImage}
                 alt={`${activeTrans.memberName} After`}
@@ -62,18 +62,17 @@ export const Transformations: React.FC = () => {
                 AFTER
               </span>
 
-              {/* BEFORE IMAGE (Clipped Overlay Layer) */}
+              {/* BEFORE IMAGE (Left Side Clipped Overlay Layer - Stationary) */}
               <div
-                className="absolute inset-0 overflow-hidden"
-                style={{ width: `${sliderPos}%` }}
+                className="absolute inset-0 pointer-events-none"
+                style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}
               >
                 <img
                   src={activeTrans.beforeImage}
                   alt={`${activeTrans.memberName} Before`}
-                  className="absolute inset-0 w-full h-full object-cover filter brightness-75 contrast-125 max-w-none"
-                  style={{ width: '100%' }}
+                  className="absolute inset-0 w-full h-full object-cover filter brightness-75 contrast-125"
                 />
-                <span className="absolute bottom-4 left-4 bg-dark-bg border border-dark-border text-light font-display font-extrabold text-xs px-3 py-1 uppercase tracking-wider z-10">
+                <span className="absolute bottom-4 left-4 bg-dark-bg border border-dark-border text-light font-display font-extrabold text-xs px-3 py-1 uppercase tracking-wider z-10 pointer-events-auto">
                   BEFORE
                 </span>
               </div>
