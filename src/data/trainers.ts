@@ -2,9 +2,9 @@ import { Trainer } from '../types';
 
 export const trainersData: Trainer[] = [
   {
-    id: "arjun-v",
-    name: "ARJUN V.",
-    role: "HEAD COACH",
+    id: "sailesh-j",
+    name: "SAILESH J.",
+    role: "HEADCOACH",
     specialization: "STRENGTH & CONDITIONING",
     experience: "10+ YRS",
     image: "https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&q=80&w=800",
@@ -22,8 +22,8 @@ export const trainersData: Trainer[] = [
     quote: "Control movement under fatigue. That is true physical mastery."
   },
   {
-    id: "vikram-s",
-    name: "VIKRAM S.",
+    id: "kumutha-k",
+    name: "KUMUTHA K.",
     role: "BARBELL SPECIALIST",
     specialization: "HYPERTROPHY & POWERLIFTING",
     experience: "8+ YRS",
